@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#outer{
+	height: 400px;
+	width: 400px;
+	margin: auto;
+	position: relative;
+	border-radius: 10px;
+	background: radial-gradient(circle, rgba(224,37,0,1) 0%, rgba(125,0,51,1) 98%);
+}
+#inner{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: wheat;
+	border: 8px solid rgb(211, 153, 153);
+	border-radius: 40px;
+}
+.box{
+	box-shadow: inset 10px 10px 10px -1px rgba(0,0,0,0.3);
+}
+#circle1{
+	position: absolute;
+	top: 1.5%;
+	left: 1.5%;
+}
+#circle2{
+	position: absolute;
+	top: 1.5%;
+	right: 1.5%;
+}
+#circle3{
+	position: absolute;
+	bottom: 1.5%;
+	right: 1.5%;
+}
+#circle4{
+	position: absolute;
+	bottom: 1.5%;
+	left: 1.5%;
+}
+.black{
+	background-color: black;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+}
+body {
+  background-color: #fff;
+}
+.team {
+  background-image: linear-gradient(#000, #fff);
+  text-align: center;
+  padding: 40px 0px;
+  width: 33.33%;
+  float: left;
+}
+.team img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.team h2 {
+  color: #000;
+  text-transform: uppercase;
+}
+.team p {
+  color: #000;
+  font-size: 13px;
+}

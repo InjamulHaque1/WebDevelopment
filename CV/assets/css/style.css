@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+}
+.bold {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.mainbox {
+  margin: 20px auto;
+  padding: 10px 10px 40px 10px;
+  width: 850px;
+  background-color: rgb(183, 235, 255);
+  border-color: #5858ff;
+  border-width: 6px;
+  border-style: none solid none solid;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px black;
+}
+.mainbox h1 {
+  color: navy;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+.mainbox hr {
+  margin: 15px auto;
+  width: 50%;
+  border: 1px solid navy;
+}
+.mainbox img {
+  width: 140px;
+  height: 150px;
+  float: right;
+  outline: 2px solid navy;
+  margin: 30px 35px 5px 0px;
+}
+.mainbox ul {
+  padding: 40px 40px 15px;
+  font-size: 15px;
+}
+.mainbox ul li {
+  padding: 5px;
+}
+.line hr {
+  width: 95%;
+  border: 1px solid navy;
+}
+.box1 h2 {
+  padding: 10px 25px 15px;
+  text-transform: capitalize;
+}
+.box1 p {
+  padding: 10px 20px 15px 45px;
+  text-align: justify;
+}
+.box2 h2 {
+  padding: 10px 25px 0px;
+  text-transform: capitalize;
+}
+.box2 ul {
+  padding: 20px 60px;
+  font-size: 15px;
+}
+.box3 h2 {
+  padding: 10px 25px 20px;
+  text-transform: capitalize;
+}
+.box3 table {
+  margin: 5px auto;
+  width: 90%;
+  border: 3px solid navy;
+  text-align: center;
+}
+.box3 tr {
+  padding: 5px;
+  width: 100px;
+  border: 1px solid navy;
+}
+.box3 th {
+  padding: 5px;
+  width: 100px;
+  border: 1px solid navy;
+}
+.box3 td {
+  padding: 5px;
+  width: 100px;
+  border: 1px solid navy;
+}
+.box4 {
+  text-transform: capitalize;
+}
+.box4 h2 {
+  padding: 20px 0px 20px 25px;
+}
+.box4 p {
+  padding-left: 50px;
+}
+.box5 {
+  text-transform: capitalize;
+}
+.box5 h2 {
+  padding: 20px 0px 20px 25px;
+}
+.box5 p {
+  padding: 0px 40px 0px 50px;
+  text-align: justify;
+}
